@@ -1,2 +1,19 @@
+html {
+	font-size: 16px;
+	font-family: sans-serif;
+}
 
+header {
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 100;
+	border-bottom: solid 1px grey;
+}
+
+header .content {
+	display: flex;
+	align-items: center;
+	padding: 1.8rem;
+}
 
