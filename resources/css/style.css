@@ -4,6 +4,10 @@ html {
 	margin: 0 auto;
 }
 
+body {
+	margin: 0 auto;
+}
+
 header {
 	position: fixed;
 	width: 100%;
@@ -57,5 +61,44 @@ header .mobile li {
 		width: 100%;
 	}
 }
+
+/* Banner */
+
+.banner {
+	width: 100%;
+	display: flex;
+	background-color: #d8d8d8;
+	padding: 42px 0px 34px 24px;
+	top: 3rem;
+	position: relative;
+}
+.content {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
