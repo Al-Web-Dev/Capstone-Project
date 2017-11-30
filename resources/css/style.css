@@ -40,12 +40,20 @@ header .mobile li {
 	padding: 0;
 }
 
-@media only screen and (max-width: 450px) {
+
+@media only screen and (max-width: 550px) {
 	header .mobile {
-		display: inline-block;
+		display: flex;
+		width: 100%;
 	}
 	.desktop {
 		display: none;
+		width: 100%;
+	}
+	header .mobile ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 		width: 100%;
 	}
 }
