@@ -1,7 +1,7 @@
 html {
 	font-size: 18px;
 	font-family: sans-serif;
-	margin: 0 auto;
+	
 }
 
 body {
@@ -74,14 +74,20 @@ header .mobile li {
 	align-items: center;
 	background-color: #8080804a;
 }
-.image-container img {
+.banner .image-container img {
 	padding: 32px 24px;
-	width: 60%;
-	position: relative;
 	
 }
+
+.banner img {
+	width: 60%;
+	padding: 32px 24px;
+	display: inline-flex;
+
+}
 .banner-text {
-	margin-right: 30px;
+	margin-right: 300px;
+	
 }
 .button {
 	border-radius: 2px;
