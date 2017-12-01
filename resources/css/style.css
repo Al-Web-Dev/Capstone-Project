@@ -1,5 +1,5 @@
 html {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: sans-serif;
 	margin: 0 auto;
 }
@@ -62,20 +62,34 @@ header .mobile li {
 	}
 }
 
-/* Banner */
+/* Banner / main content */
 
-.banner {
-	width: 100%;
-	display: flex;
-	background-color: #d8d8d8;
-	padding: 42px 0px 34px 24px;
-	top: 3rem;
+.main-content {
 	position: relative;
+	top: 3rem;
 }
-.content {
+.banner {
 	display: flex;
 	justify-content: flex-start;
+	align-items: center;
+	background-color: #8080804a;
 }
+.image-container img {
+	padding: 32px 24px;
+	width: 60%;
+	
+}
+.banner-text {
+	margin-right: 30px;
+}
+.button {
+	border-radius: 2px;
+	background-color: #4a4a4a;
+	color: white;
+	text-align: center;
+}
+
+
 
 
 
