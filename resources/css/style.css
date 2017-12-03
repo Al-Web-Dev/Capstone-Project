@@ -137,6 +137,7 @@ header .mobile li {
 }
 .info-text {
 	margin: 37px;
+	text-align: left;
 }
 .info-text h2, p {
 	margin: 0;
@@ -175,6 +176,22 @@ header .mobile li {
 }
 
 
+/* Thesis Exhibit */
+.te-container {	
+	text-align: center;
+}
+.te-video-text {
+	display: flex;
+}
+
+video {
+	width: 60%;
+	margin: 0;
+}
+footer {
+	display: flex;
+	justify-content: flex-end;
+}
 
 
 
