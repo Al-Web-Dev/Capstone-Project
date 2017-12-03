@@ -67,13 +67,14 @@ header .mobile li {
 	position: relative;
 	top: 3rem;
 	width: 100%;
+
 }
 .banner {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	background-color: #8080804a;
-	width: 100%;
+	
 }
 .banner .image-container {
 	display: flex;
@@ -100,6 +101,23 @@ header .mobile li {
 	color: white;
 	text-align: center;
 	padding: 8px 0 8px 0;
+}
+
+/* section 2 */
+.section-2 {
+	display: flex;
+	width: 100%;
+}
+.column-large {
+	flex-direction: column;
+	width: 60%;
+}
+.keep-prac {
+	width: 60%;	
+	padding: 32px 24px;
+}
+.image-container {
+	width: 60%;
 }
 
 
