@@ -63,31 +63,36 @@ header .mobile li {
 }
 
 /* Banner / main content */
-
 .main-content {
 	position: relative;
 	top: 3rem;
+	width: 100%;
 }
 .banner {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	background-color: #8080804a;
+	width: 100%;
 }
-.banner .image-container img {
-	padding: 32px 24px;
-	
+.banner .image-container {
+	display: flex;
+	width: 60%;	
 }
-
 .banner img {
-	width: 60%;
 	padding: 32px 24px;
-	display: inline-flex;
-
+	display: flex;
 }
 .banner-text {
-	margin-right: 300px;
-	
+	margin: 24px;
+}
+.banner-text p {
+		line-height: 1.4rem;
+		color: grey;
+		margin: 30px 0px;
+}
+.banner-text h1 {
+	line-height: 1.2;
 }
 .button {
 	border-radius: 2px;
