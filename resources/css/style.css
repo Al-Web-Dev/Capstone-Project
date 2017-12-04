@@ -53,7 +53,7 @@ header .mobile li {
 	}
 	.desktop {
 		display: none;
-		width: 100%;
+		
 	}
 	header .mobile ul {
 		display: flex;
@@ -64,29 +64,24 @@ header .mobile li {
 }
 
 /* Banner / main content */
-.main-content {
-	position: relative;
-	top: 3rem;
+.content {
+	display: inline-flex;
+	align-items: center;
 	width: 100%;
-
 }
 .banner {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	background-color: #8080804a;
-	
+	background-color: #8080804a;	
 }
-.banner .image-container {
-	display: flex;
-	width: 60%;	
+.image-container {
+	width: 60%;			
 }
-.banner img {
-	padding: 32px 24px;
-	display: flex;
+		
 }
 .banner-text {
-	margin: 24px;
+	margin: 24px;	
+}
+.banner img {
+	padding: 90px 24px 32px 24px;
 }
 .banner-text p {
 		line-height: 1.4rem;
@@ -180,10 +175,11 @@ header .mobile li {
 .te-container {	
 	text-align: left;
 	display: flex;
+	margin-bottom: 32px;
 }
 
 #top {
-	padding-top: 0;
+	
 	background-color: #8080804a;
 }
 
@@ -204,6 +200,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	margin: 16px 24px 40px 24px;
 }
 
 
