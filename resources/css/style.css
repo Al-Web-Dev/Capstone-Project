@@ -111,7 +111,7 @@ header .mobile li {
 }
 .column-large {
 	flex-direction: column;
-	width: 60%;
+	
 }
 .keep-prac {
 	width: 60%;	
@@ -178,21 +178,33 @@ header .mobile li {
 
 /* Thesis Exhibit */
 .te-container {	
-	text-align: center;
+	text-align: left;
+	display: flex;
+}
+
+#top {
+	padding-top: 0;
+	background-color: #8080804a;
+}
+
+.video-container {
+	width: 60%;
+	padding: 0 24px;
 }
 .te-video-text {
 	display: flex;
 }
 
 video {
-	width: 60%;
+	
 	margin: 0;
 }
+
 footer {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: flex-start;
 }
-
 
 
 
