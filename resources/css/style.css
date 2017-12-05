@@ -1,6 +1,7 @@
 html {
 	font-size: 18px;
 	font-family: sans-serif;
+	margin: 0;
 	
 }
 
@@ -47,6 +48,22 @@ header .mobile li {
 
 
 @media only screen and (max-width: 550px) {
+
+
+	/* banner media qs */
+	.banner {
+		flex-direction: column;
+	}
+	.banner-text {
+		margin: 32px 16px;
+	}
+	.banner img {
+		width: 100%;
+		height: auto;
+		margin-top: 74px;
+	}
+
+	/*header media qs */
 	header .mobile {
 		display: flex;
 		width: 100%;
@@ -61,28 +78,60 @@ header .mobile li {
 		align-items: center;
 		width: 100%;
 	}
+	.column-large {
+		display: none;
+	}
+	.row {
+		flex-direction: column;
+		
+		display: block;
+	}
+	
 }
 
+
+
 /* Banner / main content */
-.content {
-	display: inline-flex;
-	align-items: center;
-	width: 100%;
-}
+
+
 .banner {
-	background-color: #8080804a;	
+	background-color: #8080804a;
+	display: inline-flex;	
+	width: 100%;
+	align-items: center;
 }
-.image-container {
-	width: 60%;			
-}
-		
-}
+
 .banner-text {
-	margin: 24px;	
-}
+	margin-left: 24px;
+}	
+
+/* takes care of conflickling media queries*/
+@media only screen and (min-width: 551px) {
 .banner img {
 	padding: 90px 24px 32px 24px;
+	width: 60%;
 }
+.banner-text {
+	margin-left: 24px;
+}
+.column-large {
+	display: inline-flex;
+}
+.row {
+	display: inline-flex;
+}
+.info-text {
+	margin: 37px;
+	text-align: left;
+}
+.row img {
+	width: 220px;
+	height: 220px;
+}
+}
+
+
+
 .banner-text p {
 		line-height: 1.4rem;
 		color: grey;
@@ -107,33 +156,26 @@ header .mobile li {
 .column-large {
 	flex-direction: column;
 	
-}
-.keep-prac {
-	width: 60%;	
+	width: 60%;
 	padding: 32px 24px;
 }
-.image-container {
-	width: 60%;
+.column-large img {
+
+}
 }
 .column-medium {
-	display: flex;
+	display: inline-flex;
 	flex-direction: column;
 	width: 40%;
 }
 .row {
 	padding: 32px 24px;
-	display: flex;
+	
 	align-items: center;
 	
 }
-.row img {
-	width: 220px;
-	height: 220px;
-}
-.info-text {
-	margin: 37px;
-	text-align: left;
-}
+
+
 .info-text h2, p {
 	margin: 0;
 }
@@ -147,10 +189,12 @@ header .mobile li {
 	background-color: #8080804a;
 	text-align: center;
 	padding: 32px;
+
 }
 .sl-container {
-	display: flex;
-	flex-direction: column;
+	
+	flex-flow: wrap;
+	margin: 0;
 }
 .sl-row {
 	display: flex;
