@@ -52,7 +52,7 @@ header .mobile li {
 
 	/* banner media qs */
 	.banner {
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.banner-text {
 		margin: 32px 16px;
@@ -92,8 +92,42 @@ header .mobile li {
 	#mobile-image {
 		display: block;
 	}
-	
+	.sl-container {
+	display: none;
 }
+	.start-learning {
+	background-color: white;
+}
+	.mobile-textbox-container {
+		display: block;
+	}
+	.mobile-sl-text {
+		background-color: #8080804a;
+		padding: 1px 0 1px 23px;
+		text-align: left;
+		margin-bottom: 5px;
+	}		
+	.column-medium-sl {
+	display: none;	
+}
+.te-container .video-container h1 p {
+	display: none;
+}
+.video-container {
+	width: 100%;
+	padding: 0;
+}
+footer {
+	display: block;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 40px 24px 40px 24px;
+	font-size: 0.7rem;
+}
+
+
+	
+} /* media query end */
 
 
 
@@ -102,9 +136,8 @@ header .mobile li {
 
 .banner {
 	background-color: #8080804a;
-	display: inline-flex;	
 	width: 100%;
-	align-items: center;
+	
 }
 
 .banner-text {
@@ -117,6 +150,13 @@ header .mobile li {
 	padding: 90px 24px 32px 24px;
 	width: 60%;
 }
+.banner {
+	display: inline-flex;
+	align-items: center;
+}
+#mobile-image {
+		display: none;
+	}
 .banner-text {
 	margin-left: 24px;
 }
@@ -132,8 +172,34 @@ header .mobile li {
 	text-align: left;
 }
 #desktop-image {
-		display: block;
+	display: block;
 	}
+.sl-container {
+	display: block;
+}
+.start-learning {
+	background-color: #8080804a;
+}
+.mobile-textbox-container {
+	display: none;
+}
+.column-medium-sl {
+	display: block;	
+}
+.te-container {	
+	display: flex;
+}
+.video-container {
+	width: 60%;
+	padding: 0 24px;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 16px 24px 40px 24px;
+}
+
 }
 
 
@@ -171,7 +237,6 @@ header .mobile li {
 }
 }
 .column-medium {
-	display: inline-flex;
 	flex-direction: column;
 	width: 40%;
 }
@@ -193,7 +258,7 @@ header .mobile li {
 
 /* start learnign */
 .start-learning {
-	background-color: #8080804a;
+	
 	text-align: center;
 	padding: 32px;
 
@@ -225,7 +290,6 @@ header .mobile li {
 /* Thesis Exhibit */
 .te-container {	
 	text-align: left;
-	display: flex;
 	margin-bottom: 32px;
 }
 
@@ -234,10 +298,6 @@ header .mobile li {
 	background-color: #8080804a;
 }
 
-.video-container {
-	width: 60%;
-	padding: 0 24px;
-}
 .te-video-text {
 	display: flex;
 }
@@ -247,12 +307,7 @@ video {
 	margin: 0;
 }
 
-footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	margin: 16px 24px 40px 24px;
-}
+
 
 
 
