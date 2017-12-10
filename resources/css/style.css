@@ -86,6 +86,7 @@ header .mobile li {
 	}
 	#mobile-image {
 		display: block;
+		width: 100%;
 	}
 	.sl-container {
 	display: none;
